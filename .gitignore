@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.pnpm-store/
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts.bak
+
+# Environment variables & secrets
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# Logs & debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Turborepo & Build cache
+.turbo/
+.cache/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# IDE & Editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Tool caches & browser profiles
+.edge-profile/
+.figwright/dist/
+.figwright/plugin.zip

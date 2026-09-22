@@ -1,0 +1,21 @@
+{
+  "name": "bus-arabia-portal",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:customer": "npm run dev --workspace=apps/customer-web",
+    "dev:operator": "npm run dev --workspace=apps/operator-web",
+    "dev:admin": "npm run dev --workspace=apps/admin-web",
+    "dev:api": "npm run start:dev --workspace=apps/api",
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "prettier": "^3.3.3"
+  }
+}

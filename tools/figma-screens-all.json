@@ -1,0 +1,5681 @@
+[
+  {
+    "id": "602:23307",
+    "name": "Admine portal",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 23232,
+    "y": -5063,
+    "width": 31513,
+    "height": 68672,
+    "parentId": "238:3",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "663:502",
+    "name": "Bus Ticket / Visa Package",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 1545,
+    "y": 3984,
+    "width": 27379,
+    "height": 5116,
+    "parentId": "664:2490",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "840:2519",
+    "name": "Operator Portal",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 58429,
+    "y": -4292,
+    "width": 18777,
+    "height": 31678,
+    "parentId": "238:3",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "602:18968",
+    "name": "Payout Management",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7880,
+    "y": 35157,
+    "width": 14647,
+    "height": 2149,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "602:9915",
+    "name": "Payment Verification",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7500,
+    "y": 39974,
+    "width": 10387,
+    "height": 1654,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "891:2695",
+    "name": "Dashboard",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 433,
+    "y": 695,
+    "width": 9115,
+    "height": 1890,
+    "parentId": "891:1928",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "1026:2",
+    "name": "Package",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 29946,
+    "y": 3984,
+    "width": 9028,
+    "height": 5240,
+    "parentId": "664:2490",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "840:7138",
+    "name": "Trips Management",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 2629,
+    "y": 13362,
+    "width": 8785,
+    "height": 2477,
+    "parentId": "840:2519",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "1532:5",
+    "name": "Platform Settings",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7889,
+    "y": 60749,
+    "width": 4660,
+    "height": 2111,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "602:17583",
+    "name": "Wallet & Refund Management",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7547,
+    "y": 23634,
+    "width": 4610,
+    "height": 2528,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "1532:3",
+    "name": "Payout Overview",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7992,
+    "y": 53754,
+    "width": 4140,
+    "height": 2443,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "840:8327",
+    "name": "Passenger Manifest",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 12074,
+    "y": 13733,
+    "width": 3857,
+    "height": 1912,
+    "parentId": "840:2519",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "602:11980",
+    "name": "packages",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 14775,
+    "y": 8620,
+    "width": 3857,
+    "height": 1654,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "840:4002",
+    "name": "Bus ManagementSection 5",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 3543,
+    "y": 7796,
+    "width": 3739,
+    "height": 2081,
+    "parentId": "840:2519",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "840:3207",
+    "name": "Operator Management",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7669,
+    "y": 17160,
+    "width": 3440,
+    "height": 1912,
+    "parentId": "840:2519",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "602:14871",
+    "name": "login",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7720,
+    "y": 5667,
+    "width": 3112,
+    "height": 1224,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "891:2213",
+    "name": "Saved Passengers",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 9705,
+    "width": 3022,
+    "height": 1931,
+    "parentId": "891:1928",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "602:12716",
+    "name": "trips",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 10832,
+    "y": 8484,
+    "width": 3000,
+    "height": 1631,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "891:1929",
+    "name": "Transaction History",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 654,
+    "y": 3593,
+    "width": 2946,
+    "height": 1905,
+    "parentId": "891:1928",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "602:14205",
+    "name": "buses managment",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7662,
+    "y": 14648,
+    "width": 2908,
+    "height": 1631,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "840:2520",
+    "name": "Operator Company Profile",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 6385,
+    "y": 2154,
+    "width": 2876,
+    "height": 2281,
+    "parentId": "840:2519",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "840:8804",
+    "name": "Operator Dashboard",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 3357,
+    "y": 2051,
+    "width": 2267,
+    "height": 2754,
+    "parentId": "840:2519",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "1574:3043",
+    "name": "Support",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 3850,
+    "y": 9177,
+    "width": 2204,
+    "height": 2988,
+    "parentId": "891:1928",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "602:23061",
+    "name": "Edit Profile",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7500,
+    "y": 31493,
+    "width": 2012,
+    "height": 2374,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "840:10086",
+    "name": "Bookings Report",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 3435,
+    "y": 27568,
+    "width": 1965,
+    "height": 2264,
+    "parentId": "840:2519",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "602:21690",
+    "name": "dashboard",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7720,
+    "y": 8326,
+    "width": 1791,
+    "height": 1948,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "891:3875",
+    "name": "Profile",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 350,
+    "y": 6080,
+    "width": 1777,
+    "height": 2468,
+    "parentId": "891:1928",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "602:22645",
+    "name": "Reports and Analytics",
+    "type": "SECTION",
+    "visible": true,
+    "locked": false,
+    "x": 7500,
+    "y": 26980,
+    "width": 1616,
+    "height": 1845,
+    "parentId": "602:23307",
+    "cornerRadius": 2,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.2549019753932953,
+          "b": 0.2862745225429535
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.10000000149011612,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE"
+  },
+  {
+    "id": "1574:2785",
+    "name": "Admin: Review Moderation & Feedback Management",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 1833,
+    "y": 100,
+    "width": 1527,
+    "height": 1024,
+    "parentId": "1642:2",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 256,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "602:21329",
+    "name": "Payout Status Reference - Admin Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 13189,
+    "y": 170,
+    "width": 1358,
+    "height": 1438,
+    "parentId": "602:18968",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.95686274766922,
+          "g": 0.9686274528503418,
+          "b": 0.9764705896377563
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 260,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "1546:2182",
+    "name": "regular trip",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 5486,
+    "y": 158,
+    "width": 1303,
+    "height": 1904,
+    "parentId": "840:7138",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "602:9339",
+    "name": "round trip",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 100,
+    "width": 1300,
+    "height": 1454,
+    "parentId": "602:9338",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9882352948188782,
+          "g": 0.9764705896377563,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 47,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "602:9618",
+    "name": "round trip",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 1866,
+    "y": 100,
+    "width": 1300,
+    "height": 1454,
+    "parentId": "602:9338",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9882352948188782,
+          "g": 0.9764705896377563,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 47,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "840:4458",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 2341,
+    "y": 100,
+    "width": 1298,
+    "height": 1712,
+    "parentId": "840:4002",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 96,
+      "paddingRight": 32,
+      "paddingBottom": 48,
+      "paddingLeft": 275,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:4881",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 118,
+    "width": 1292,
+    "height": 1712,
+    "parentId": "840:4880",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 96,
+      "paddingRight": 32,
+      "paddingBottom": 48,
+      "paddingLeft": 275,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "1460:4072",
+    "name": "Payout Overview",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 243,
+    "y": 495,
+    "width": 1291,
+    "height": 1454,
+    "parentId": "1532:3",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9882352948188782,
+          "g": 0.9764705896377563,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 47,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "1460:4565",
+    "name": "Payout Overview",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 1875,
+    "y": 455,
+    "width": 1291,
+    "height": 1454,
+    "parentId": "1532:3",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9882352948188782,
+          "g": 0.9764705896377563,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 47,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "1502:2",
+    "name": "Platform Settings",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 100,
+    "width": 1291,
+    "height": 1911,
+    "parentId": "1532:5",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9882352948188782,
+          "g": 0.9764705896377563,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 47,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "840:4003",
+    "name": "Operator Dashboard - Enhanced Financial Command Center",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 100,
+    "width": 1285,
+    "height": 1881,
+    "parentId": "840:4002",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 260,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "602:17584",
+    "name": "Wallet & Refund Management",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 100,
+    "width": 1285,
+    "height": 1496,
+    "parentId": "602:17583",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9882352948188782,
+          "g": 0.9764705896377563,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 47,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "1483:229",
+    "name": "Admin: Edit Bank Transfer Instructions",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 1730,
+    "y": 262,
+    "width": 1282,
+    "height": 1027,
+    "parentId": "1532:5",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 256,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "2035:1277",
+    "name": "HOME PAGE ",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 3294,
+    "parentId": "2252:3420",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "FIXED",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "1574:3044",
+    "name": "website home page ",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 3594,
+    "parentId": "2035:1277",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9882352948188782,
+          "g": 0.9764705896377563,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 85,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "FIXED",
+    "layoutAlign": "STRETCH",
+    "clipsContent": true
+  },
+  {
+    "id": "2337:4702",
+    "name": "HOME PAGE ",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 3294,
+    "parentId": "2337:4701",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "FIXED",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "2337:4703",
+    "name": "website home page ",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 3594,
+    "parentId": "2337:4702",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9882352948188782,
+          "g": 0.9764705896377563,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 85,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "FIXED",
+    "layoutAlign": "STRETCH",
+    "clipsContent": true
+  },
+  {
+    "id": "1859:42",
+    "name": "website home page ",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": -107085,
+    "y": 2613,
+    "width": 1280,
+    "height": 4838.021484375,
+    "parentId": "238:3",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9882352948188782,
+          "g": 0.9764705896377563,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 85,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "840:8805",
+    "name": "Operator Dashboard - Enhanced Financial Command Center",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 428,
+    "y": 464,
+    "width": 1280,
+    "height": 1921,
+    "parentId": "840:8804",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 260,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "602:20914",
+    "name": "Payout Calculation Configuration - Admin Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 9557,
+    "y": 146,
+    "width": 1280,
+    "height": 1486,
+    "parentId": "602:18968",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.95686274766922,
+          "g": 0.9686274528503418,
+          "b": 0.9764705896377563
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 260,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "602:21126",
+    "name": "Payout Status Reference - Admin Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 11270,
+    "y": 146,
+    "width": 1280,
+    "height": 1113,
+    "parentId": "602:18968",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.95686274766922,
+          "g": 0.9686274528503418,
+          "b": 0.9764705896377563
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 64,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 260,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:2521",
+    "name": "Detailed Operator Company Profile - Owner View",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 100,
+    "width": 1280,
+    "height": 1718,
+    "parentId": "840:2520",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MAX",
+      "layoutWrap": "NO_WRAP",
+      "itemReverseZIndex": true
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:2879",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 1496,
+    "y": 100,
+    "width": 1280,
+    "height": 2081,
+    "parentId": "840:2520",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 96,
+      "paddingRight": 32,
+      "paddingBottom": 48,
+      "paddingLeft": 292,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:5346",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 2266,
+    "y": 100,
+    "width": 1280,
+    "height": 1646,
+    "parentId": "840:4880",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:5648",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 100,
+    "width": 1280,
+    "height": 1712,
+    "parentId": "840:5647",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:6022",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 1937,
+    "y": 100,
+    "width": 1280,
+    "height": 1712,
+    "parentId": "840:5647",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:6326",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 100,
+    "width": 1280,
+    "height": 1651,
+    "parentId": "840:6325",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:6777",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 1957,
+    "y": 100,
+    "width": 1280,
+    "height": 1712,
+    "parentId": "840:6325",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:8328",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 100,
+    "width": 1280,
+    "height": 1712,
+    "parentId": "840:8327",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:9273",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 265,
+    "y": 297,
+    "width": 1280,
+    "height": 1712,
+    "parentId": "840:9272",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:10087",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 291,
+    "y": 148,
+    "width": 1280,
+    "height": 1921,
+    "parentId": "840:10086",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:3208",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 100,
+    "width": 1280,
+    "height": 1712,
+    "parentId": "840:3207",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 96,
+      "paddingRight": 32,
+      "paddingBottom": 48,
+      "paddingLeft": 292,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:3649",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 1566,
+    "y": 100,
+    "width": 1280,
+    "height": 1712,
+    "parentId": "840:3207",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 96,
+      "paddingRight": 32,
+      "paddingBottom": 48,
+      "paddingLeft": 292,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:7139",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 207,
+    "width": 1280,
+    "height": 1712,
+    "parentId": "840:7138",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:7546",
+    "name": "Edit Operator Profile - Bus Arabia Portal",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 2125,
+    "y": 158,
+    "width": 1280,
+    "height": 1712,
+    "parentId": "840:7138",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "1546:2741",
+    "name": "Operator: Payouts & Settlements",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 6417,
+    "y": 25779,
+    "width": 1280,
+    "height": 1024,
+    "parentId": "840:2519",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 256,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "1546:2978",
+    "name": "Operator: Payout Settlement Detail",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 7945,
+    "y": 25779,
+    "width": 1280,
+    "height": 1344.52001953125,
+    "parentId": "840:2519",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 256,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "840:9659",
+    "name": "Payout Management",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 652,
+    "y": 273,
+    "width": 1280,
+    "height": 1672.5,
+    "parentId": "840:9658",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 260,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "602:13635",
+    "name": "MODAL OVERLAY: Add New Trip",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 1431,
+    "parentId": "602:13329",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.4000000059604645,
+        "color": {
+          "r": 0.10980392247438431,
+          "g": 0.10588235408067703,
+          "b": 0.10588235408067703
+        }
+      }
+    ],
+    "effects": [
+      {
+        "type": "BACKGROUND_BLUR",
+        "visible": true,
+        "radius": 8
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "FIXED",
+    "layoutPositioning": "ABSOLUTE",
+    "clipsContent": true,
+    "overflowDirection": "BOTH"
+  },
+  {
+    "id": "602:14073",
+    "name": "MODAL OVERLAY: Add New Trip",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 1431,
+    "parentId": "602:13767",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.4000000059604645,
+        "color": {
+          "r": 0.10980392247438431,
+          "g": 0.10588235408067703,
+          "b": 0.10588235408067703
+        }
+      }
+    ],
+    "effects": [
+      {
+        "type": "BACKGROUND_BLUR",
+        "visible": true,
+        "radius": 8
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "FIXED",
+    "layoutPositioning": "ABSOLUTE",
+    "clipsContent": true,
+    "overflowDirection": "BOTH"
+  },
+  {
+    "id": "1546:872",
+    "name": "sigle trip",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 3990,
+    "y": 158,
+    "width": 1280,
+    "height": 1904,
+    "parentId": "840:7138",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "1574:2649",
+    "name": "Customer Portal: Submit Trip Review & Rating",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 100,
+    "y": 100,
+    "width": 1280,
+    "height": 880.156005859375,
+    "parentId": "1642:2",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 256,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "1572:962",
+    "name": "Checkout: Select Payment Method",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 11123,
+    "y": 1412,
+    "width": 1280,
+    "height": 1350,
+    "parentId": "663:502",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "itemReverseZIndex": true
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "1572:1334",
+    "name": "Checkout: Payment Error & Retry",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 17525,
+    "y": 1461,
+    "width": 1280,
+    "height": 811.5706176757812,
+    "parentId": "663:502",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "itemReverseZIndex": true
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "1572:1420",
+    "name": "Checkout: Cash Payment Instruction & Expiry Notice",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 15908,
+    "y": 1412,
+    "width": 1280,
+    "height": 1064.5699462890625,
+    "parentId": "663:502",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "itemReverseZIndex": true
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "2085:1346",
+    "name": "Checkout: Select Payment Method",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 11139,
+    "y": 3041,
+    "width": 1280,
+    "height": 1679,
+    "parentId": "663:502",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "itemReverseZIndex": true
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "2148:2946",
+    "name": "Checkout: Select Payment Method",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 12565,
+    "y": 3041,
+    "width": 1280,
+    "height": 1880,
+    "parentId": "663:502",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "itemReverseZIndex": true
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "1573:2443",
+    "name": "Support",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 373,
+    "y": 435,
+    "width": 1280,
+    "height": 2000.3399658203125,
+    "parentId": "1574:3043",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 256,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "1808:150",
+    "name": "Email Verification: Request pop",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 20571,
+    "y": 1444,
+    "width": 1280,
+    "height": 1024,
+    "parentId": "663:502",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "1808:526",
+    "name": "Email Verification: Request pop",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 22112,
+    "y": 1444,
+    "width": 1280,
+    "height": 1024,
+    "parentId": "663:502",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "1808:703",
+    "name": "Email Verification: Request pop",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 23493,
+    "y": 1444,
+    "width": 1280,
+    "height": 1024,
+    "parentId": "663:502",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "1572:1242",
+    "name": "Checkout: Pending Verification Instruction",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 12881,
+    "y": 1412,
+    "width": 1280,
+    "height": 1208.1900634765625,
+    "parentId": "663:502",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "itemReverseZIndex": true
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "2149:3158",
+    "name": "Checkout: Pending Verification Instruction",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 14268,
+    "y": 1412,
+    "width": 1280,
+    "height": 1256.1900634765625,
+    "parentId": "663:502",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "itemReverseZIndex": true
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false,
+    "overflowDirection": "VERTICAL"
+  },
+  {
+    "id": "1574:2799",
+    "name": "Dashboard Content:margin",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 80,
+    "width": 1271,
+    "height": 944,
+    "parentId": "1574:2786",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 35.5,
+      "paddingBottom": 0,
+      "paddingLeft": 35.5,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "FILL",
+    "layoutGrow": 1,
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "1483:442",
+    "name": "Admin: Edit Cash Payment Instructions",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 3289,
+    "y": 373,
+    "width": 1271,
+    "height": 1244,
+    "parentId": "1532:5",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9921568632125854,
+          "g": 0.9725490212440491,
+          "b": 0.9725490212440491
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 256,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "1574:2800",
+    "name": "Dashboard Content",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 35.5,
+    "y": 0,
+    "width": 1200,
+    "height": 944,
+    "parentId": "1574:2799",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 48,
+      "paddingRight": 48,
+      "paddingBottom": 48,
+      "paddingLeft": 48,
+      "itemSpacing": 32,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "FILL",
+    "layoutGrow": 1,
+    "layoutAlign": "STRETCH",
+    "maxWidth": 1200,
+    "clipsContent": false
+  },
+  {
+    "id": "602:20323",
+    "name": "Payouts Table",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 301,
+    "y": 678,
+    "width": 1187,
+    "height": 502.5,
+    "parentId": "602:20100",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": "mixed",
+    "cornerRadii": {
+      "topLeft": 0,
+      "topRight": 0,
+      "bottomRight": 16,
+      "bottomLeft": 16
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "HUG",
+    "layoutPositioning": "ABSOLUTE",
+    "clipsContent": true
+  },
+  {
+    "id": "2313:3105",
+    "name": "Main - OperatorCard",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 10.5,
+    "y": 37,
+    "width": 1179,
+    "height": 758,
+    "parentId": "1037:861",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 24,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 40,
+      "paddingRight": 40,
+      "paddingBottom": 40,
+      "paddingLeft": 40,
+      "itemSpacing": 24,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "HUG",
+    "clipsContent": false,
+    "styleIds": {
+      "stroke": "S:52671b5dcfe82f40a225c850d7151bbad8f88fcb,"
+    }
+  },
+  {
+    "id": "2388:5035",
+    "name": "Main - OperatorCard",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 10.5,
+    "y": 37,
+    "width": 1179,
+    "height": 758,
+    "parentId": "2388:5034",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": "mixed",
+    "cornerRadii": {
+      "topLeft": 24,
+      "topRight": 24,
+      "bottomRight": 0,
+      "bottomLeft": 0
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 40,
+      "paddingRight": 40,
+      "paddingBottom": 40,
+      "paddingLeft": 40,
+      "itemSpacing": 24,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MAX",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "HUG",
+    "clipsContent": false,
+    "styleIds": {
+      "stroke": "S:52671b5dcfe82f40a225c850d7151bbad8f88fcb,"
+    }
+  },
+  {
+    "id": "2024:220",
+    "name": "3-Column Operator Grid",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 64,
+    "y": 324,
+    "width": 1152,
+    "height": 904,
+    "parentId": "2024:149",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "2387:3372",
+    "name": "3-Column Operator Grid",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 64,
+    "y": 324,
+    "width": 1152,
+    "height": 720,
+    "parentId": "2387:3321",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "602:6809",
+    "name": "History Table Card",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 276,
+    "y": 639,
+    "width": 1114,
+    "height": 516.5,
+    "parentId": "602:6660",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "HUG",
+    "layoutPositioning": "ABSOLUTE",
+    "clipsContent": true
+  },
+  {
+    "id": "2396:6771",
+    "name": "Article - 11. Refund Rules by Payment Method",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 6776.2294921875,
+    "width": 760,
+    "height": 624.780029296875,
+    "parentId": "2396:6616",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0.6431372761726379,
+          "g": 0.007843137718737125,
+          "b": 0.3490196168422699,
+          "a": 0.029999999329447746
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 32,
+      "paddingRight": 32,
+      "paddingBottom": 32,
+      "paddingLeft": 32,
+      "itemSpacing": 12,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "2094:960",
+    "name": "Article - 11. Refund Rules by Payment Method",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 9277.73046875,
+    "width": 760,
+    "height": 455.7799987792969,
+    "parentId": "2094:805",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0.6431372761726379,
+          "g": 0.007843137718737125,
+          "b": 0.3490196168422699,
+          "a": 0.029999999329447746
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 32,
+      "paddingRight": 32,
+      "paddingBottom": 32,
+      "paddingLeft": 32,
+      "itemSpacing": 31,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "1995:452",
+    "name": "Article - 11. Refund Rules by Payment Method",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 7409.7294921875,
+    "width": 760,
+    "height": 644.280029296875,
+    "parentId": "2046:954",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": "mixed",
+    "cornerRadii": {
+      "topLeft": 12,
+      "topRight": 12,
+      "bottomRight": 0,
+      "bottomLeft": 0
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0.6431372761726379,
+          "g": 0.007843137718737125,
+          "b": 0.3490196168422699,
+          "a": 0.029999999329447746
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 32,
+      "paddingRight": 32,
+      "paddingBottom": 32,
+      "paddingLeft": 32,
+      "itemSpacing": 12,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MAX",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "2396:7306",
+    "name": "Article - 11. Refund Rules by Payment Method",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 10423.73046875,
+    "width": 760,
+    "height": 505.7799987792969,
+    "parentId": "2396:7025",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": "mixed",
+    "cornerRadii": {
+      "topLeft": 12,
+      "topRight": 12,
+      "bottomRight": 0,
+      "bottomLeft": 0
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0.6431372761726379,
+          "g": 0.007843137718737125,
+          "b": 0.3490196168422699,
+          "a": 0.029999999329447746
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 32,
+      "paddingRight": 32,
+      "paddingBottom": 32,
+      "paddingLeft": 32,
+      "itemSpacing": 31,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MAX",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "602:17413",
+    "name": "Passenger Info Card",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 114.58999633789062,
+    "width": 706.6599731445312,
+    "height": 737.5499877929688,
+    "parentId": "602:17407",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.20000000298023224,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0.10980392247438431,
+          "g": 0.10588235408067703,
+          "b": 0.10588235408067703,
+          "a": 0.03999999910593033
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 48,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "288:473",
+    "name": "Passenger Info Card",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 138.58984375,
+    "width": 706.6599731445312,
+    "height": 868.5499877929688,
+    "parentId": "288:467",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.20000000298023224,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0.10980392247438431,
+          "g": 0.10588235408067703,
+          "b": 0.10588235408067703,
+          "a": 0.03999999910593033
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 48,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "1808:1581",
+    "name": "Passenger Info Card",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 1031.1400146484375,
+    "width": 706.6599731445312,
+    "height": 868.5499877929688,
+    "parentId": "288:467",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.20000000298023224,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0.10980392247438431,
+          "g": 0.10588235408067703,
+          "b": 0.10588235408067703,
+          "a": 0.03999999910593033
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 48,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "1808:1240",
+    "name": "Passenger Info Card",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 138.58984375,
+    "width": 706.6599731445312,
+    "height": 868.5499877929688,
+    "parentId": "1808:1234",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.20000000298023224,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0.10980392247438431,
+          "g": 0.10588235408067703,
+          "b": 0.10588235408067703,
+          "a": 0.03999999910593033
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 48,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "1922:205",
+    "name": "Passenger Info Card",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 138.58984375,
+    "width": 706.6599731445312,
+    "height": 868.5499877929688,
+    "parentId": "1922:199",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.20000000298023224,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0.10980392247438431,
+          "g": 0.10588235408067703,
+          "b": 0.10588235408067703,
+          "a": 0.03999999910593033
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 48,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "1922:325",
+    "name": "Passenger Info Card",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 1031.1400146484375,
+    "width": 706.6599731445312,
+    "height": 868.5499877929688,
+    "parentId": "1922:199",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.20000000298023224,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0.10980392247438431,
+          "g": 0.10588235408067703,
+          "b": 0.10588235408067703,
+          "a": 0.03999999910593033
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 48,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "1572:983",
+    "name": "Left Column: Payment Methods",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 704,
+    "height": 449,
+    "parentId": "1572:982",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "HUG",
+    "clipsContent": false
+  },
+  {
+    "id": "2085:1367",
+    "name": "Left Column: Payment Methods",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 704,
+    "height": 462,
+    "parentId": "2085:1366",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "HUG",
+    "clipsContent": false
+  },
+  {
+    "id": "2148:2967",
+    "name": "Left Column: Payment Methods",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 704,
+    "height": 462,
+    "parentId": "2148:2966",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "HUG",
+    "clipsContent": false
+  },
+  {
+    "id": "602:17021",
+    "name": "Section - Trip Information (Span 8)",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 326.6666564941406,
+    "y": 0,
+    "width": 629.3333740234375,
+    "height": 438,
+    "parentId": "602:16992",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 16,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 2,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 1
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 109,
+      "paddingLeft": 24,
+      "itemSpacing": 24,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutGrow": 1,
+    "gridChild": {
+      "rowAnchorIndex": 0,
+      "columnAnchorIndex": 4,
+      "columnSpan": 8
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "1546:2823",
+    "name": "Past Payouts Data Section",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 317.3333435058594,
+    "y": 0,
+    "width": 610.6666870117188,
+    "height": 443.53997802734375,
+    "parentId": "1546:2776",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 8,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.8627451062202454,
+          "g": 0.7490196228027344,
+          "b": 0.7843137383460999
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 2,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 1
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutGrow": 1,
+    "gridChild": {
+      "rowAnchorIndex": 0,
+      "columnAnchorIndex": 1,
+      "columnSpan": 2
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "602:17216",
+    "name": "Bus Layout Container",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 48,
+    "y": 144,
+    "width": 519.3333740234375,
+    "height": 637,
+    "parentId": "602:17198",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9686274528503418,
+          "g": 0.9490196108818054,
+          "b": 0.9490196108818054
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 49,
+      "paddingRight": 0,
+      "paddingBottom": 24,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "2213:2737",
+    "name": "Bus Layout Container",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 48,
+    "y": 191,
+    "width": 519.3333740234375,
+    "height": 984,
+    "parentId": "2213:2722",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9686274528503418,
+          "g": 0.9490196108818054,
+          "b": 0.9490196108818054
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 49,
+      "paddingRight": 0,
+      "paddingBottom": 24,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "FIXED",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "281:1282",
+    "name": "Bus Layout Container",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 48,
+    "y": 191,
+    "width": 519.3333740234375,
+    "height": 984,
+    "parentId": "281:1264",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9686274528503418,
+          "g": 0.9490196108818054,
+          "b": 0.9490196108818054
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 49,
+      "paddingRight": 0,
+      "paddingBottom": 24,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "FIXED",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "1945:2716",
+    "name": "Bus Layout Container",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 48,
+    "y": 191,
+    "width": 519.3333740234375,
+    "height": 984,
+    "parentId": "1945:2701",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.9686274528503418,
+          "g": 0.9490196108818054,
+          "b": 0.9490196108818054
+        }
+      }
+    ],
+    "layout": {
+      "mode": "HORIZONTAL",
+      "paddingTop": 49,
+      "paddingRight": 0,
+      "paddingBottom": 24,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "FIXED",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "840:8729",
+    "name": "Verification Results",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 413.3299865722656,
+    "height": 858,
+    "parentId": "840:8728",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 12,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 0.30000001192092896,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 20,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutAlign": "STRETCH",
+    "clipsContent": false
+  },
+  {
+    "id": "602:17133",
+    "name": "Section - History & Status (Span 5)",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 571.6666870117188,
+    "y": 462,
+    "width": 384.33331298828125,
+    "height": 427,
+    "parentId": "602:16992",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 16,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 2,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 1
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 24,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutGrow": 1,
+    "gridChild": {
+      "rowAnchorIndex": 1,
+      "columnAnchorIndex": 7,
+      "columnSpan": 5
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "1454:3941",
+    "name": "Left Column: Past Payout Cycles",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 0,
+    "y": 0,
+    "width": 352,
+    "height": 499,
+    "parentId": "1454:3940",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": 0,
+    "fills": [],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP"
+    },
+    "layoutSizingHorizontal": "FILL",
+    "layoutSizingVertical": "HUG",
+    "layoutGrow": 1,
+    "gridChild": {
+      "rowAnchorIndex": 0,
+      "columnAnchorIndex": 0,
+      "columnSpan": 4
+    },
+    "clipsContent": false
+  },
+  {
+    "id": "602:17217",
+    "name": "Bus Body Styling",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 89.66668701171875,
+    "y": 49,
+    "width": 340,
+    "height": 564,
+    "parentId": "602:17216",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": "mixed",
+    "cornerRadii": {
+      "topLeft": 40,
+      "topRight": 40,
+      "bottomRight": 20,
+      "bottomLeft": 20
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 2,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 1
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 48,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "FILL",
+    "layoutAlign": "STRETCH",
+    "maxWidth": 340,
+    "clipsContent": false
+  },
+  {
+    "id": "2213:2738",
+    "name": "Bus Body Styling",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 77.66668701171875,
+    "y": 49,
+    "width": 340,
+    "height": 908,
+    "parentId": "2213:2737",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": "mixed",
+    "cornerRadii": {
+      "topLeft": 40,
+      "topRight": 40,
+      "bottomRight": 20,
+      "bottomLeft": 20
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 2,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 1
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 37,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "FIXED",
+    "maxWidth": 340,
+    "clipsContent": false
+  },
+  {
+    "id": "281:1283",
+    "name": "Bus Body Styling",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 77.66668701171875,
+    "y": 49,
+    "width": 340,
+    "height": 908,
+    "parentId": "281:1282",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": "mixed",
+    "cornerRadii": {
+      "topLeft": 40,
+      "topRight": 40,
+      "bottomRight": 20,
+      "bottomLeft": 20
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 2,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 1
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 37,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "FIXED",
+    "maxWidth": 340,
+    "clipsContent": false
+  },
+  {
+    "id": "1945:2717",
+    "name": "Bus Body Styling",
+    "type": "FRAME",
+    "visible": true,
+    "locked": false,
+    "x": 77.66668701171875,
+    "y": 49,
+    "width": 340,
+    "height": 908,
+    "parentId": "1945:2716",
+    "rotation": 0,
+    "opacity": 1,
+    "cornerRadius": "mixed",
+    "cornerRadii": {
+      "topLeft": 40,
+      "topRight": 40,
+      "bottomRight": 20,
+      "bottomLeft": 20
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "color": {
+          "r": 0.8588235378265381,
+          "g": 0.7490196228027344,
+          "b": 0.7882353067398071
+        }
+      }
+    ],
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 2,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 1
+        },
+        "spread": 0
+      }
+    ],
+    "layout": {
+      "mode": "VERTICAL",
+      "paddingTop": 24,
+      "paddingRight": 24,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "itemSpacing": 37,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "layoutWrap": "NO_WRAP",
+      "strokesIncludedInLayout": true
+    },
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "FIXED",
+    "maxWidth": 340,
+    "clipsContent": false
+  }
+]

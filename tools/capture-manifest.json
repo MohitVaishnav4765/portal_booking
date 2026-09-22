@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1574:3044",
+    "file": "cust-web-home-en.png",
+    "portal": "Customer Web",
+    "title": "Customer Home Page (English)",
+    "success": true,
+    "width": 922,
+    "height": 2588,
+    "size": 2091143
+  },
+  {
+    "id": "2337:4703",
+    "file": "cust-web-home-ar.png",
+    "portal": "Customer Web",
+    "title": "Customer Home Page (Arabic RTL)",
+    "success": true,
+    "width": 922,
+    "height": 2588,
+    "size": 2036008
+  },
+  {
+    "id": "1945:2373",
+    "file": "cust-web-search-results.png",
+    "portal": "Customer Web",
+    "title": "Bus Search & Results Listing",
+    "success": true,
+    "width": 1154,
+    "height": 977,
+    "size": 130428
+  },
+  {
+    "id": "1945:2716",
+    "file": "cust-web-seat-selection.png",
+    "portal": "Customer Web",
+    "title": "Interactive Seat Selection & Bus Map",
+    "success": true,
+    "width": 519,
+    "height": 984,
+    "size": 39993
+  },
+  {
+    "id": "1572:962",
+    "file": "cust-web-checkout-payment.png",
+    "portal": "Customer Web",
+    "title": "Checkout & Payment Method Selection",
+    "success": true,
+    "width": 1280,
+    "height": 1350,
+    "size": 261013
+  },
+  {
+    "id": "1893:252",
+    "file": "cust-web-ticket-confirmation.png",
+    "portal": "Customer Web",
+    "title": "Booking Confirmation & Digital Ticket",
+    "success": true,
+    "width": 1288,
+    "height": 909,
+    "size": 426742
+  },
+  {
+    "id": "1572:1420",
+    "file": "cust-web-cash-payment-instructions.png",
+    "portal": "Customer Web",
+    "title": "Cash Payment / SADAD Instructions",
+    "success": true,
+    "width": 1280,
+    "height": 1065,
+    "size": 329327
+  },
+  {
+    "id": "1808:150",
+    "file": "cust-web-email-otp-verification.png",
+    "portal": "Customer Web",
+    "title": "Passenger Email / OTP Verification Modal",
+    "success": true,
+    "width": 1288,
+    "height": 1032,
+    "size": 236775
+  },
+  {
+    "id": "891:2695",
+    "file": "cust-portal-dashboard.png",
+    "portal": "Customer Portal",
+    "title": "Customer Account Dashboard",
+    "success": true,
+    "width": 2552,
+    "height": 529,
+    "size": 226645
+  },
+  {
+    "id": "891:2213",
+    "file": "cust-portal-saved-passengers.png",
+    "portal": "Customer Portal",
+    "title": "Saved Passenger Profiles",
+    "success": true,
+    "width": 2569,
+    "height": 1641,
+    "size": 414841
+  },
+  {
+    "id": "891:1929",
+    "file": "cust-portal-transaction-history.png",
+    "portal": "Customer Portal",
+    "title": "Transaction & Booking History",
+    "success": true,
+    "width": 2563,
+    "height": 1657,
+    "size": 157496
+  },
+  {
+    "id": "891:3875",
+    "file": "cust-portal-profile.png",
+    "portal": "Customer Portal",
+    "title": "User Profile & Preferences",
+    "success": true,
+    "width": 1777,
+    "height": 2468,
+    "size": 182231
+  },
+  {
+    "id": "1574:3043",
+    "file": "cust-portal-support.png",
+    "portal": "Customer Portal",
+    "title": "Customer Support & Help Center",
+    "success": true,
+    "width": 1895,
+    "height": 2570,
+    "size": 275046
+  },
+  {
+    "id": "1574:2649",
+    "file": "cust-portal-trip-review.png",
+    "portal": "Customer Portal",
+    "title": "Trip Review & Rating Dialog",
+    "success": true,
+    "width": 1280,
+    "height": 880,
+    "size": 103978
+  },
+  {
+    "id": "840:4003",
+    "file": "operator-dashboard.png",
+    "portal": "Operator Portal",
+    "title": "Operator Command Center & Financial Overview",
+    "success": true,
+    "width": 2219,
+    "height": 1922,
+    "size": 260620
+  },
+  {
+    "id": "840:2521",
+    "file": "operator-company-profile.png",
+    "portal": "Operator Portal",
+    "title": "Operator Company Profile & Documentation",
+    "success": true,
+    "width": 1282,
+    "height": 1719,
+    "size": 255748
+  },
+  {
+    "id": "840:4002",
+    "file": "operator-bus-management.png",
+    "portal": "Operator Portal",
+    "title": "Bus Fleet & Inventory Management",
+    "success": true,
+    "width": 2580,
+    "height": 1436,
+    "size": 313423
+  },
+  {
+    "id": "840:4880",
+    "file": "operator-routes-management.png",
+    "portal": "Operator Portal",
+    "title": "Route Configuration & Management",
+    "success": true,
+    "width": 2589,
+    "height": 1370,
+    "size": 364927
+  },
+  {
+    "id": "840:7138",
+    "file": "operator-trips-management.png",
+    "portal": "Operator Portal",
+    "title": "Trip Scheduling & Dispatch",
+    "success": true,
+    "width": 2548,
+    "height": 718,
+    "size": 191680
+  },
+  {
+    "id": "840:8327",
+    "file": "operator-passenger-manifest.png",
+    "portal": "Operator Portal",
+    "title": "Passenger Manifest & Boarding List",
+    "success": true,
+    "width": 2584,
+    "height": 1281,
+    "size": 384757
+  },
+  {
+    "id": "1546:2741",
+    "file": "operator-payouts-settlements.png",
+    "portal": "Operator Portal",
+    "title": "Operator Payouts & Settlement Hub",
+    "success": true,
+    "width": 1282,
+    "height": 1028,
+    "size": 148609
+  },
+  {
+    "id": "602:21690",
+    "file": "admin-dashboard.png",
+    "portal": "Admin Portal",
+    "title": "Super Admin Central Dashboard",
+    "success": true,
+    "width": 1791,
+    "height": 1948,
+    "size": 227340
+  },
+  {
+    "id": "602:6205",
+    "file": "admin-customer-management.png",
+    "portal": "Admin Portal",
+    "title": "Global Customer Management",
+    "success": true,
+    "width": 2599,
+    "height": 861,
+    "size": 270468
+  },
+  {
+    "id": "602:15001",
+    "file": "admin-bookings-management.png",
+    "portal": "Admin Portal",
+    "title": "Central Booking Control & Management",
+    "success": true,
+    "width": 2543,
+    "height": 508,
+    "size": 183384
+  },
+  {
+    "id": "602:20914",
+    "file": "admin-payout-configuration.png",
+    "portal": "Admin Portal",
+    "title": "Payout & Commission Engine Configuration",
+    "success": true,
+    "width": 1294,
+    "height": 1488,
+    "size": 951134
+  },
+  {
+    "id": "602:21126",
+    "file": "admin-payout-status-reference.png",
+    "portal": "Admin Portal",
+    "title": "Payout Status Reference Matrix",
+    "success": true,
+    "width": 1302,
+    "height": 1114,
+    "size": 497881
+  },
+  {
+    "id": "1483:229",
+    "file": "admin-bank-transfer-config.png",
+    "portal": "Admin Portal",
+    "title": "Bank Transfer & Wire Instructions Setup",
+    "success": true,
+    "width": 1282,
+    "height": 1027,
+    "size": 89241
+  },
+  {
+    "id": "1502:2",
+    "file": "admin-platform-settings.png",
+    "portal": "Admin Portal",
+    "title": "System-Wide Platform Settings & Limits",
+    "success": true,
+    "width": 1313,
+    "height": 1912,
+    "size": 178877
+  },
+  {
+    "id": "1574:2785",
+    "file": "admin-review-moderation.png",
+    "portal": "Admin Portal",
+    "title": "Review Moderation & Feedback Management",
+    "success": true,
+    "width": 1527,
+    "height": 1024,
+    "size": 99994
+  },
+  {
+    "id": "602:22645",
+    "file": "admin-reports-analytics.png",
+    "portal": "Admin Portal",
+    "title": "Revenue & Volume Reports Analytics",
+    "success": true,
+    "width": 1616,
+    "height": 1845,
+    "size": 283244
+  }
+]
