@@ -14,55 +14,166 @@ export function TicketCalloutBanner({ locale }: TicketCalloutBannerProps) {
   const isAr = locale === 'ar';
 
   return (
-    <section className="py-6 sm:py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-      <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-rose-900/10 bg-gradient-to-r from-[#950250] via-[#b20163] to-[#fa1590] group">
-        <div className="flex flex-col lg:flex-row items-center justify-between min-h-[120px] lg:h-[130px] p-3 sm:p-4 lg:p-0">
-          {/* 1. Left (LTR) / Right (RTL): Clean Coach Bus Photo */}
-          <div className={`relative w-full lg:w-[38%] h-36 sm:h-44 lg:h-full flex-shrink-0 overflow-hidden ${isAr ? 'lg:order-2' : 'lg:order-1'}`}>
+    <section className="w-full py-2 sm:py-3 px-0">
+      <div className="relative w-full overflow-hidden bg-gradient-to-r from-[#a90062] via-[#c5006d] to-[#ff1687]">
+
+        <div className="flex items-center h-[150px] sm:h-[155px] lg:h-[160px]">
+
+          {/* =========================
+          LEFT — BUS IMAGE
+      ========================== */}
+          <div
+            className={`
+          relative h-full w-[30%] lg:w-[31%] flex-shrink-0 overflow-hidden
+          ${isAr ? "lg:order-2" : "lg:order-1"}
+        `}
+          >
             <Image
               src="/images/ticket-bus-clean.png"
               alt="Luxury Coach Travel"
               fill
-              className={`object-cover object-center ${isAr ? '-scale-x-100' : ''}`}
+              className={`object-cover object-center ${isAr ? "-scale-x-100" : ""
+                }`}
               priority
+            />
+
+            {/* Slanted Magenta Transition */}
+            <div
+              className={`
+            absolute top-0 h-full w-[130px] z-10
+            bg-gradient-to-r from-transparent via-[#b20163] to-[#b20163]
+            ${isAr ? "left-[-1px]" : "right-[-1px]"}
+          `}
+              style={{
+                clipPath: isAr
+                  ? "polygon(55% 0, 100% 0, 100% 100%, 55% 100%, 0 50%)"
+                  : "polygon(45% 0, 100% 0, 100% 100%, 45% 100%, 0 50%)",
+              }}
             />
           </div>
 
-          {/* 2. White Slanted Ticket Ribbon Container */}
+          {/* =========================
+          RIGHT — WHITE RIBBON
+      ========================== */}
           <div
-            className={`relative w-full lg:w-[62%] bg-white rounded-xl lg:rounded-l-3xl lg:rounded-r-none py-4 px-5 sm:px-8 lg:px-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg lg:h-[88%] lg:my-auto ${
-              isAr ? 'lg:order-1 lg:rounded-r-3xl lg:rounded-l-none' : 'lg:order-2'
-            }`}
+            className={`
+          relative z-20
+          h-[125px] sm:h-[130px] lg:h-[125px]
+          w-[70%] lg:w-[69%]
+          bg-white
+          flex items-center
+          px-6 sm:px-8 lg:px-12
+          shadow-sm
+          ${isAr
+                ? "lg:order-1 rounded-r-[12px]"
+                : "lg:order-2 rounded-l-[12px]"
+              }
+        `}
+            style={{
+              clipPath: isAr
+                ? "polygon(0 0, 100% 0, 100% 100%, 0 100%, 25px 50%)"
+                : "polygon(25px 0, 100% 0, 100% 100%, 25px 100%, 0 50%)",
+            }}
           >
-            {/* Semantic Text Content */}
-            <div className="flex flex-col space-y-0.5">
-              <span
-                className={`text-[#b20163] font-black uppercase text-xs sm:text-sm md:text-base tracking-wider ${
-                  isAr ? 'font-sans' : 'font-[\'Barlow_Semi_Condensed\',sans-serif]'
-                }`}
-              >
-                {t.ctaBanner.title1}
-              </span>
-              <span
-                className={`text-[#cba028] font-black uppercase text-base sm:text-xl md:text-2xl lg:text-[26px] tracking-wide leading-tight ${
-                  isAr ? 'font-sans' : 'font-[\'Barlow_Semi_Condensed\',sans-serif]'
-                }`}
-              >
-                {t.ctaBanner.title2}
-              </span>
-            </div>
 
-            {/* Interactive Gold CTA Button */}
-            <a
-              href="#search-box"
-              className="flex-shrink-0 inline-flex items-center gap-2.5 px-5 sm:px-6 py-2.5 sm:py-3 rounded-full bg-gradient-to-r from-[#ffe26d] via-[#fdea9d] to-[#d9b747] text-[#1a1a1a] font-bold text-xs sm:text-sm shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 group/btn"
-              aria-label={t.ctaBanner.btn}
+            <div
+              className={`
+            w-full flex items-center justify-between gap-6
+            ${isAr ? "flex-row-reverse" : ""}
+          `}
             >
-              <span>{t.ctaBanner.btn}</span>
-              <div className="w-5 h-5 rounded-full bg-[#1a1a1a] text-[#ffe26d] flex items-center justify-center transition-transform group-hover/btn:translate-x-0.5 rtl:group-hover/btn:-translate-x-0.5">
-                {isAr ? <ArrowLeft className="w-3 h-3" /> : <ArrowRight className="w-3 h-3" />}
+
+              {/* =========================
+              TEXT
+          ========================== */}
+              <div
+                className={`
+              flex flex-col justify-center
+              ${isAr ? "text-right" : "text-left"}
+            `}
+              >
+                <span
+                  className={`
+                text-[#b20163]
+                font-black italic uppercase
+                text-[15px] sm:text-[18px] lg:text-[21px]
+                tracking-wide
+                leading-tight
+                ${isAr
+                      ? "font-sans"
+                      : "font-['Barlow_Semi_Condensed',sans-serif]"
+                    }
+              `}
+                >
+                  {t.ctaBanner.title1}
+                </span>
+
+                <span
+                  className={`
+                mt-1
+                text-[#d4ad2d]
+                font-black italic uppercase
+                text-[20px] sm:text-[25px] lg:text-[30px]
+                tracking-wide
+                leading-tight
+                ${isAr
+                      ? "font-sans"
+                      : "font-['Barlow_Semi_Condensed',sans-serif]"
+                    }
+              `}
+                >
+                  {t.ctaBanner.title2}
+                </span>
               </div>
-            </a>
+
+              {/* =========================
+              CTA BUTTON
+          ========================== */}
+              <a
+                href="#search-box"
+                className="
+              flex-shrink-0
+              inline-flex items-center justify-center gap-2
+              px-4 sm:px-5 lg:px-5
+              py-2.5 sm:py-3
+              rounded-[10px]
+              bg-gradient-to-r
+              from-[#ffe47b]
+              via-[#f8dc69]
+              to-[#dcb83f]
+              text-[#171717]
+              font-bold
+              text-[12px] sm:text-[13px] lg:text-[14px]
+              shadow-sm
+              hover:shadow-md
+              hover:scale-[1.02]
+              transition-all duration-200
+            "
+                aria-label={t.ctaBanner.btn}
+              >
+                <span className="whitespace-nowrap">
+                  {t.ctaBanner.btn}
+                </span>
+
+                <div
+                  className="
+                w-6 h-6
+                rounded-full
+                bg-[#171717]
+                text-white
+                flex items-center justify-center
+                flex-shrink-0
+              "
+                >
+                  {isAr ? (
+                    <ArrowLeft className="w-3.5 h-3.5" />
+                  ) : (
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  )}
+                </div>
+              </a>
+
+            </div>
           </div>
         </div>
       </div>

@@ -71,29 +71,87 @@ export function Footer({ locale }: FooterProps) {
   ];
 
   return (
-    <footer className="bg-gradient-to-b from-[#b20163] via-[#9e0052] to-[#75003d] pt-14 pb-12 px-4 sm:px-6 lg:px-8 mt-auto">
-      {/* Floating White Card matching Frame 3681 (Figma 2035:1798) */}
-      <div className="max-w-6xl mx-auto bg-white rounded-[32px] p-8 sm:p-12 shadow-2xl border border-white/40">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
-          {/* Column 1: Logo & Social Media Icons */}
-          <div className="lg:col-span-3 space-y-6">
-            <div className="relative h-12 w-48">
+    <footer
+      className="
+    relative
+    mt-auto
+    overflow-hidden
+    bg-gradient-to-br
+    from-[#a90062]
+    via-[#d00072]
+    to-[#ff1687]
+    pt-8
+    sm:pt-10
+    pb-8
+    px-4
+    sm:px-6
+  "
+    >
+      {/* =====================================================
+      MAIN WHITE FOOTER CARD
+  ====================================================== */}
+      <div
+        className="
+      relative
+      mx-auto
+      w-full
+      max-w-[905px]
+      min-h-[330px]
+      rounded-[30px]
+      bg-[#fffdfc]
+      px-7
+      py-8
+      sm:px-8
+      sm:py-9
+    "
+      >
+        <div
+          className="
+        grid
+        grid-cols-1
+        sm:grid-cols-2
+        lg:grid-cols-[1.15fr_0.75fr_0.95fr_1.15fr]
+        gap-x-8
+        gap-y-8
+        h-full
+      "
+        >
+
+          {/* =================================================
+          COLUMN 1 — LOGO + SOCIAL
+      ================================================== */}
+          <div className="flex flex-col items-start">
+
+            {/* Logo */}
+            <div className="relative w-[215px] h-[70px]">
               <Image
                 src="/images/logo.png"
                 alt="Bus Arabia"
                 fill
-                className="object-contain ltr:object-left rtl:object-right"
+                className="object-contain object-left"
               />
             </div>
 
-            {/* 6 Circular Gold Social Buttons from Figma */}
-            <div className="flex items-center gap-2 flex-wrap">
+            {/* Social Icons */}
+            <div className="flex items-center gap-2 mt-3 flex-wrap">
               {socialLinks.map((s) => (
                 <a
                   key={s.name}
                   href={s.href}
-                  className="w-8 h-8 rounded-full bg-[#fdeab2] hover:bg-[#ffe26d] text-slate-900 flex items-center justify-center transition-all shadow-xs hover:scale-110 active:scale-95"
                   aria-label={s.name}
+                  className="
+                w-[29px]
+                h-[29px]
+                rounded-full
+                bg-[#ffe47b]
+                text-[#171717]
+                flex
+                items-center
+                justify-center
+                hover:bg-[#f5d65c]
+                hover:scale-105
+                transition-all
+              "
                 >
                   {s.icon}
                 </a>
@@ -101,106 +159,246 @@ export function Footer({ locale }: FooterProps) {
             </div>
           </div>
 
-          {/* Column 2: Company Links */}
-          <div className="lg:col-span-2">
+
+          {/* =================================================
+          COLUMN 2 — COMPANY
+      ================================================== */}
+          <div>
             <h4
-              className="text-xs sm:text-sm font-extrabold text-slate-900 uppercase tracking-wider mb-4"
-              style={{ fontFamily: "'Montserrat', sans-serif" }}
+              className="
+            text-[16px]
+            font-extrabold
+            text-[#171717]
+            mb-3
+          "
+              style={{
+                fontFamily: "'Montserrat', sans-serif",
+              }}
             >
               {t.footer.company}
             </h4>
-            <ul className="space-y-3 text-xs sm:text-[13px] font-semibold text-slate-600">
+
+            <ul
+              className="
+            space-y-2.5
+            text-[14px]
+            leading-[1.25]
+            font-medium
+            text-[#5c5056]
+          "
+            >
               <li>
-                <a href="#about" className="hover:text-[#b20163] transition-colors">
+                <a
+                  href="#about"
+                  className="hover:text-[#b20163] transition-colors"
+                >
                   {t.footer.aboutUs}
                 </a>
               </li>
+
               <li>
-                <a href="#contact" className="hover:text-[#b20163] transition-colors">
+                <a
+                  href="#contact"
+                  className="hover:text-[#b20163] transition-colors"
+                >
                   {t.footer.contactUs}
                 </a>
               </li>
+
               <li>
-                <a href="#faq" className="hover:text-[#b20163] transition-colors">
+                <a
+                  href="#faq"
+                  className="hover:text-[#b20163] transition-colors"
+                >
                   {t.footer.faq}
                 </a>
               </li>
+
               <li>
-                <a href="#operators" className="hover:text-[#b20163] transition-colors">
+                <a
+                  href="#operators"
+                  className="hover:text-[#b20163] transition-colors"
+                >
                   {t.footer.ourBusOperators}
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Column 3: Information Links */}
-          <div className="lg:col-span-3">
+
+          {/* =================================================
+          COLUMN 3 — INFORMATION
+      ================================================== */}
+          <div>
             <h4
-              className="text-xs sm:text-sm font-extrabold text-slate-900 uppercase tracking-wider mb-4"
-              style={{ fontFamily: "'Montserrat', sans-serif" }}
+              className="
+            text-[16px]
+            font-extrabold
+            text-[#171717]
+            mb-3
+          "
+              style={{
+                fontFamily: "'Montserrat', sans-serif",
+              }}
             >
               {t.footer.information}
             </h4>
-            <ul className="space-y-3 text-xs sm:text-[13px] font-semibold text-slate-600">
+
+            <ul
+              className="
+            space-y-2.5
+            text-[14px]
+            leading-[1.15]
+            font-medium
+            text-[#5c5056]
+          "
+            >
               <li>
-                <a href="#privacy" className="hover:text-[#b20163] transition-colors">
+                <a
+                  href="#privacy"
+                  className="hover:text-[#b20163] transition-colors"
+                >
                   {t.footer.privacyPolicy}
                 </a>
               </li>
+
               <li>
-                <a href="#terms" className="hover:text-[#b20163] transition-colors">
+                <a
+                  href="#terms"
+                  className="hover:text-[#b20163] transition-colors"
+                >
                   {t.footer.termsOfService}
                 </a>
               </li>
+
               <li>
-                <a href="#cancellation" className="hover:text-[#b20163] transition-colors">
+                <a
+                  href="#cancellation"
+                  className="hover:text-[#b20163] transition-colors"
+                >
                   {t.footer.cancellationPolicy}
                 </a>
               </li>
+
               <li>
-                <a href="#cookies" className="hover:text-[#b20163] transition-colors">
+                <a
+                  href="#cookies"
+                  className="hover:text-[#b20163] transition-colors"
+                >
                   {t.footer.cookiePolicy}
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Column 4: WE ACCEPT & Operator Login Button */}
-          <div className="lg:col-span-4 flex flex-col justify-between">
-            <div>
-              {/* Payment Methods Grid Asset from Figma 2137:3534 */}
-              <div className="relative w-full max-w-[280px] h-[190px] mx-auto lg:mx-0">
-                <Image
-                  src="/images/payments-grid.png"
-                  alt="We Accept: Visa, Mada, STC Pay, Mastercard, American Express, Google Pay, Samsung Pay, Apple Pay, Union Pay"
-                  fill
-                  className="object-contain ltr:object-left rtl:object-right"
-                />
-              </div>
+
+          {/* =================================================
+          COLUMN 4 — PAYMENTS
+      ================================================== */}
+          <div className="flex flex-col items-start">
+
+            {/* Payment Asset */}
+            <div
+              className="
+            relative
+            w-full
+            max-w-[225px]
+            h-[220px]
+          "
+            >
+              <Image
+                src="/images/payments-grid.png"
+                alt="We Accept Visa, Mada, STC Pay, Mastercard, American Express, Google Pay, Samsung Pay, Apple Pay, Union Pay"
+                fill
+                className="object-contain object-left-top"
+              />
             </div>
 
-            {/* Gold Bus Operator Sign in / Sign up button from Frame 3681 */}
-            <div className="mt-5">
-              <a
-                href="#operator-portal"
-                className="w-full bg-gradient-to-r from-[#ffe26d] via-[#fdeab2] to-[#d9b747] hover:brightness-105 text-slate-900 font-extrabold px-5 py-2.5 rounded-full text-xs shadow-sm flex items-center justify-center gap-2 transition-all cursor-pointer group"
+            {/* Operator Login */}
+            <a
+              href="#operator-portal"
+              className="
+            -mt-2
+            inline-flex
+            items-center
+            justify-center
+            gap-1.5
+            w-fit
+            px-3
+            py-1.5
+            rounded-full
+            bg-gradient-to-r
+            from-[#ffe26d]
+            via-[#fdea9d]
+            to-[#d9b747]
+            text-[#171717]
+            text-[9px]
+            sm:text-[10px]
+            font-bold
+            shadow-sm
+            hover:brightness-105
+            transition-all
+          "
+            >
+              <span>
+                {t.footer.operatorLogin}
+              </span>
+
+              <span
+                className="
+              flex
+              items-center
+              justify-center
+              w-[17px]
+              h-[17px]
+              rounded-full
+              bg-[#171717]
+              text-white
+            "
               >
-                <span>{t.footer.operatorLogin}</span>
-                <span className="w-5 h-5 rounded-full bg-slate-900 text-white flex items-center justify-center group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5 transition-transform">
-                  <ArrowRight className="w-3 h-3 rtl:rotate-180" />
-                </span>
-              </a>
-            </div>
+                <ArrowRight className="w-[9px] h-[9px]" />
+              </span>
+            </a>
           </div>
+
         </div>
       </div>
 
-      {/* Bottom Copyright & Unified National Number from Frame 3681 */}
-      <div className="max-w-6xl mx-auto pt-8 text-center text-white/90 space-y-1">
-        <p className="text-xs sm:text-sm font-medium tracking-wide">
+
+      {/* =====================================================
+      COPYRIGHT
+  ====================================================== */}
+      <div
+        className="
+      mx-auto
+      max-w-[905px]
+      pt-7
+      sm:pt-8
+      text-center
+      text-white
+    "
+      >
+        <p
+          className="
+        text-[12px]
+        sm:text-[13px]
+        font-medium
+        tracking-wide
+      "
+        >
           {t.footer.copyright}
         </p>
-        <p className="text-xs sm:text-sm font-bold tracking-wider text-[#ffe26d]">
+
+        <p
+          className="
+        mt-5
+        text-[12px]
+        sm:text-[13px]
+        font-medium
+        tracking-wide
+        text-white
+      "
+        >
           {t.footer.unifiedNumber}
         </p>
       </div>

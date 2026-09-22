@@ -14,59 +14,181 @@ export function OperatorPartnerBanner({ locale }: OperatorPartnerBannerProps) {
   const isAr = locale === 'ar';
 
   return (
-    <section className="py-8 sm:py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-      <div className="relative rounded-2xl sm:rounded-[32px] overflow-hidden shadow-2xl border border-rose-950/20 bg-gradient-to-r from-[#6e0037] via-[#8c0047] to-[#b20163] group">
-        {/* Background Coaches Asset Layer (Figma 1574:3250) */}
+    <section className="w-full py-8 sm:py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div
+        className="
+      relative
+      min-h-[230px] sm:min-h-[240px] lg:h-[240px]
+      overflow-hidden
+      rounded-[22px] sm:rounded-[24px]
+      bg-gradient-to-r
+      from-[#8a003f]
+      via-[#a80058]
+      to-[#b20163]
+      group
+    "
+      >
+
+        {/* =========================================
+        BACKGROUND BUS IMAGE
+    ========================================= */}
         <div
-          className={`absolute inset-y-0 ${
-            isAr ? 'left-0' : 'right-0'
-          } w-full lg:w-[62%] h-full overflow-hidden`}
+          className={`
+        absolute inset-y-0
+        w-full lg:w-[62%]
+        ${isAr ? "left-0" : "right-0"}
+      `}
         >
           <Image
             src="/images/operator-bus-only.png"
             alt="Bus Arabia Operators Fleet"
             fill
-            className={`object-cover ${
-              isAr ? 'object-left -scale-x-100' : 'object-right'
-            } select-none opacity-85 group-hover:scale-[1.02] transition-transform duration-700`}
             priority
+            className={`
+          object-cover
+          ${isAr
+                ? "object-left -scale-x-100"
+                : "object-right"
+              }
+          select-none
+          transition-transform
+          duration-700
+          group-hover:scale-[1.015]
+        `}
           />
-          {/* Gradient blend so text is always 100% readable */}
+
+          {/* =========================================
+          MAGENTA → IMAGE BLEND
+      ========================================= */}
           <div
-            className={`absolute inset-0 bg-gradient-to-${
-              isAr ? 'l' : 'r'
-            } from-[#6e0037] from-35% via-[#8c0047] via-55% to-transparent`}
+            className={`
+          absolute inset-0
+          bg-gradient-to-${isAr ? "l" : "r"}
+          from-[#8a003f]
+          from-[5%]
+          via-[#a80058]
+          via-[38%]
+          to-transparent
+        `}
           />
+
+          {/* Slight bottom blend */}
+          <div className="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-black/10 to-transparent" />
         </div>
 
-        {/* Foreground Content Layer (Text & Button) */}
-        <div className="relative z-10 py-8 sm:py-10 lg:py-12 px-6 sm:px-10 lg:px-14 flex flex-col justify-center max-w-2xl">
+
+        {/* =========================================
+        CONTENT
+    ========================================= */}
+        <div
+          className={`
+        relative z-10
+        h-full min-h-[230px] sm:min-h-[240px] lg:h-[240px]
+        flex flex-col justify-center
+        px-7 sm:px-9 lg:px-[30px]
+        lg:max-w-[58%]
+        ${isAr ? "lg:ml-auto lg:text-right" : "text-left"}
+      `}
+        >
+
+          {/* TITLE */}
           <h3
-            className={`text-xl sm:text-2xl lg:text-[25px] font-black italic text-white leading-snug uppercase tracking-tight ${
-              isAr ? 'font-sans' : 'font-[\'Montserrat\',sans-serif]'
-            }`}
+            className={`
+          text-[22px]
+          sm:text-[26px]
+          lg:text-[30px]
+          font-black
+          italic
+          text-white
+          uppercase
+          leading-[1.15]
+          tracking-tight
+          max-w-[650px]
+          ${isAr
+                ? "font-sans"
+                : "font-['Montserrat',sans-serif]"
+              }
+        `}
           >
             {t.operatorBanner.title}
           </h3>
 
+
+          {/* DESCRIPTION */}
           <p
-            className={`text-xs sm:text-[13px] text-white/90 leading-relaxed max-w-lg mt-2.5 ${
-              isAr ? 'font-sans' : 'font-[\'Inter\',sans-serif]'
-            }`}
+            className={`
+          mt-4
+          text-[12px]
+          sm:text-[13px]
+          lg:text-[14px]
+          leading-[1.55]
+          text-white/90
+          max-w-[620px]
+          ${isAr
+                ? "font-sans"
+                : "font-['Inter',sans-serif]"
+              }
+        `}
           >
             {t.operatorBanner.desc}
           </p>
 
+
+          {/* CTA */}
           <a
             href="#operator-signup"
-            className="mt-5 inline-flex items-center gap-2.5 px-5 sm:px-6 py-2.5 sm:py-3 rounded-full bg-gradient-to-r from-[#ffe26d] via-[#fdea9d] to-[#d9b747] text-[#1c1b1b] font-bold text-xs sm:text-sm shadow-md hover:shadow-lg hover:scale-105 transition-all w-fit group/btn cursor-pointer"
-            aria-label={t.operatorBanner.title}
+            className="
+          mt-5
+          inline-flex
+          items-center
+          justify-center
+          gap-2.5
+          w-fit
+          px-5
+          sm:px-6
+          py-2.5
+          rounded-full
+          bg-gradient-to-r
+          from-[#ffe26d]
+          via-[#f5df8b]
+          to-[#d9b747]
+          text-[#171717]
+          font-bold
+          text-[12px]
+          sm:text-[13px]
+          shadow-md
+          hover:shadow-lg
+          hover:scale-[1.03]
+          transition-all
+          duration-200
+          group/btn
+        "
+            aria-label={t.operatorBanner.btn}
           >
-            <span>{t.operatorBanner.btn}</span>
-            <div className="w-5 h-5 rounded-full bg-[#1c1b1b] text-[#ffe26d] flex items-center justify-center transition-transform group-hover/btn:translate-x-0.5 rtl:group-hover/btn:-translate-x-0.5">
-              {isAr ? <ArrowLeft className="w-3 h-3" /> : <ArrowRight className="w-3 h-3" />}
-            </div>
+            <span>
+              {t.operatorBanner.btn}
+            </span>
+
+            <span
+              className="
+            flex
+            items-center
+            justify-center
+            w-[23px]
+            h-[23px]
+            rounded-full
+            bg-[#171717]
+            text-white
+          "
+            >
+              {isAr ? (
+                <ArrowLeft className="w-3 h-3" />
+              ) : (
+                <ArrowRight className="w-3 h-3" />
+              )}
+            </span>
           </a>
+
         </div>
       </div>
     </section>

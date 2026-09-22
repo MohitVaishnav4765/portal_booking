@@ -75,7 +75,7 @@ export function HeroSearch({ locale, onSearch }: HeroSearchProps) {
           <div className="max-w-xl text-left rtl:text-right">
             {/* Tagline 1 & 2 */}
             <h2
-              className="text-xl sm:text-2xl lg:text-[34px] font-black uppercase tracking-tight text-slate-900 leading-tight"
+              className="text-3xl sm:text-2xl lg:text-[34px] font-black uppercase tracking-tight text-slate-900 leading-tight"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               {t.hero.tagline1} {t.hero.tagline2}
@@ -83,21 +83,66 @@ export function HeroSearch({ locale, onSearch }: HeroSearchProps) {
 
             {/* BIG SAVINGS GUARANTEED! */}
             <h1
-              className="text-4xl sm:text-6xl lg:text-[76px] font-black italic uppercase tracking-tight leading-none my-2 sm:my-3"
+              className="text-4xl sm:text-6xl lg:text-[76px] font-black italic uppercase tracking-[-1.5px] leading-[0.9] my-2 sm:my-3"
               style={{ fontFamily: "'Barlow Semi Condensed', sans-serif" }}
             >
-              <span className="text-[#b20163] drop-shadow-sm">{t.hero.bigSavings}</span>{' '}
-              <span className="text-[#d8b93c] drop-shadow-sm">{t.hero.guaranteed}</span>
+              {/* <span className="text-[#b20163] drop-shadow-sm">{t.hero.bigSavings}</span>{' '} */}
+              <span className="  bg-gradient-to-b
+    from-[#ff1493]
+    via-[#d90075]
+    to-[#990052]
+    bg-clip-text
+    text-transparent
+    drop-shadow-sm">{t.hero.bigSavings}</span>{' '}
+              {/* <span className="text-[#d8b93c] drop-shadow-sm">{t.hero.guaranteed}</span> */}
+              {/* <span className="text-[#d8b93c] drop-shadow-sm">{t.hero.guaranteed}</span> */}
+              <span className="    bg-gradient-to-b
+    from-[#FFF6B0]
+    via-[#FFE06A]
+    to-[#D4A900]
+    bg-clip-text
+    text-transparent
+    drop-shadow-sm">{t.hero.guaranteed}</span>
             </h1>
 
             {/* Subheadings */}
-            <p className="text-base sm:text-xl font-bold text-slate-900 drop-shadow-xs">
+            {/* <p className="text-base sm:text-xl font-bold text-slate-900 drop-shadow-xs">
+              {t.hero.subheading1}
+            </p> */}
+            <p
+              className="text-base sm:text-xl font-bold text-black tracking-tight leading-tight drop-shadow-sm"
+              style={{
+                fontFamily: "'Barlow Semi Condensed', sans-serif",
+                fontWeight: 700,
+              }}
+            >
               {t.hero.subheading1}
             </p>
-            <p className="text-sm sm:text-lg font-bold text-slate-900 mt-1 drop-shadow-xs">
+            {/* <p className="text-sm sm:text-lg font-bold text-slate-900 mt-1 drop-shadow-xs">
+              {t.hero.subheading2}
+            </p> */}
+            <p
+              className="text-sm sm:text-lg font-black text-[#111111] mt-1 tracking-[-0.3px] leading-tight"
+              style={{
+                fontFamily: "'Barlow Semi Condensed', sans-serif",
+                fontWeight: 900,
+              }}
+            >
               {t.hero.subheading2}
             </p>
-            <p className="text-sm sm:text-base font-extrabold text-[#b20163] mt-2 drop-shadow-xs">
+            {/* <p className="text-sm sm:text-base font-extrabold text-[#b20163] mt-2 drop-shadow-xs">
+              {t.hero.saveBig}
+            </p> */}
+            <p
+              className="text-sm sm:text-base font-extrabold mt-2 tracking-tight leading-tight"
+              style={{
+                fontFamily: "'Barlow Semi Condensed', sans-serif",
+                fontWeight: 800,
+                background: "linear-gradient(to bottom, #ff1493 0%, #d90075 55%, #990052 100%)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
               {t.hero.saveBig}
             </p>
           </div>
@@ -105,25 +150,45 @@ export function HeroSearch({ locale, onSearch }: HeroSearchProps) {
       </div>
 
       {/* Search Widget Container (Figma Overlay+Border+OverlayBlur 1574:3352) */}
-      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 -mt-24 sm:-mt-28 lg:-mt-32 z-20">
+      <div className="relative max-w-[1200px] mx-auto px-4 sm:px-5 -mt-16 sm:-mt-20 lg:-mt-24 z-20">
         <div
           id="search-box"
-          className="bg-white rounded-3xl shadow-2xl p-5 sm:p-7 text-slate-900 border border-slate-100/80 transition-all backdrop-blur-md"
+          className="bg-white rounded-[22px] shadow-[0_10px_25px_rgba(0,0,0,0.16)] px-4 sm:px-6 lg:px-7 py-4 sm:py-5 text-slate-900 border border-white"
         >
-          {/* Service Category Tabs (8 Tabs from Frame 3681) */}
-          <div className="flex items-center gap-2 overflow-x-auto pb-3 mb-5 border-b border-slate-100 scrollbar-none">
+          {/* Service Tabs */}
+          <div
+            className="
+    flex items-center gap-1.5 sm:gap-3
+    overflow-x-auto
+    pb-3
+    border-b border-[#f1e5eb]
+    [scrollbar-width:none]
+    [&::-webkit-scrollbar]:hidden
+  "
+          >
             {tabs.map((tab) => {
               const isActive = activeTab === tab.key;
+
               return (
                 <button
                   key={tab.key}
                   type="button"
                   onClick={() => setActiveTab(tab.key)}
-                  className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
-                    isActive
-                      ? 'bg-[#b20163] text-white shadow-sm shadow-[#b20163]/30'
-                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-                  }`}
+                  className={`
+              flex items-center gap-1.5
+              px-4 sm:px-5
+              py-2
+              rounded-full
+              text-xs sm:text-sm
+              font-bold
+              whitespace-nowrap
+              transition-all
+              cursor-pointer
+              ${isActive
+                      ? "bg-gradient-to-r from-[#b20163] to-[#f20b82] text-white shadow-md shadow-[#b20163]/25"
+                      : "text-[#20202a] hover:text-[#b20163]"
+                    }
+            `}
                 >
                   {tab.icon}
                   <span>{tab.label}</span>
@@ -133,23 +198,38 @@ export function HeroSearch({ locale, onSearch }: HeroSearchProps) {
           </div>
 
           {/* Form Title */}
-          <h3 className="text-xs sm:text-sm font-extrabold text-slate-900 mb-3 uppercase tracking-wider">
+          <h3
+            className="text-sm sm:text-base font-extrabold text-[#20202a] mt-5 mb-4 uppercase"
+            style={{
+              fontFamily: "'Barlow Semi Condensed', sans-serif",
+            }}
+          >
             {t.search.title}
           </h3>
 
-          {/* Form Inputs Grid */}
-          <form onSubmit={handleSubmit} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-3 items-center">
-            {/* From City */}
-            <div className="lg:col-span-3">
-              <label className="block text-[10px] font-bold text-slate-500 mb-1 uppercase tracking-wider">
+          {/* Search Form */}
+          <form
+            onSubmit={handleSubmit}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.35fr_55px_1.35fr_1fr_0.85fr_0.95fr] gap-3 items-end"
+          >
+            {/* FROM */}
+            <div>
+              <label
+                className="block text-xs font-bold text-[#7d174f] mb-1.5 uppercase"
+                style={{
+                  fontFamily: "'Barlow Semi Condensed', sans-serif",
+                }}
+              >
                 {t.search.from}
               </label>
-              <div className="relative flex items-center bg-slate-50 border border-slate-200 rounded-xl px-3 py-2.5 hover:border-slate-300 focus-within:border-[#b20163] transition-colors">
-                <MapPin className="w-4 h-4 text-slate-400 shrink-0 ltr:mr-2 rtl:ml-2" />
+
+              <div className="h-[48px] flex items-center bg-white border-2 border-[#ebcad9] rounded-xl px-3 transition-all hover:border-[#dca5bd] focus-within:border-[#b20163]">
+                <MapPin className="w-4 h-4 text-[#8f7d84] shrink-0 mr-2" />
+
                 <select
                   value={fromCity}
                   onChange={(e) => setFromCity(e.target.value)}
-                  className="w-full bg-transparent text-xs sm:text-sm font-bold text-slate-800 focus:outline-none cursor-pointer"
+                  className="w-full bg-transparent text-sm font-medium text-[#81737a] focus:outline-none cursor-pointer appearance-none"
                 >
                   {cities.map((c) => (
                     <option key={c} value={c}>
@@ -157,32 +237,49 @@ export function HeroSearch({ locale, onSearch }: HeroSearchProps) {
                     </option>
                   ))}
                 </select>
+
+                <svg
+                  className="w-3.5 h-3.5 text-[#8f7d84] pointer-events-none"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
               </div>
             </div>
 
-            {/* Swap Button */}
-            <div className="hidden lg:flex lg:col-span-1 justify-center pt-5">
+            {/* SWAP */}
+            <div className="hidden lg:flex justify-center items-end pb-1">
               <button
                 type="button"
                 onClick={handleSwap}
-                className="w-8 h-8 rounded-full border border-slate-200 bg-white hover:bg-slate-50 flex items-center justify-center text-slate-600 hover:text-[#b20163] transition-all shadow-xs cursor-pointer"
+                className="w-[40px] h-[40px] rounded-full bg-white border-2 border-[#f0b4d0] flex items-center justify-center text-[#8b1550] hover:bg-[#fff5fa] hover:border-[#b20163] transition-all cursor-pointer"
                 title="Swap Cities"
               >
-                <ArrowLeftRight className="w-3.5 h-3.5" />
+                <ArrowLeftRight className="w-4 h-4" />
               </button>
             </div>
 
-            {/* To City */}
-            <div className="lg:col-span-3">
-              <label className="block text-[10px] font-bold text-slate-500 mb-1 uppercase tracking-wider">
+            {/* TO */}
+            <div>
+              <label
+                className="block text-xs font-bold text-[#7d174f] mb-1.5 uppercase"
+                style={{
+                  fontFamily: "'Barlow Semi Condensed', sans-serif",
+                }}
+              >
                 {t.search.to}
               </label>
-              <div className="relative flex items-center bg-slate-50 border border-slate-200 rounded-xl px-3 py-2.5 hover:border-slate-300 focus-within:border-[#b20163] transition-colors">
-                <MapPin className="w-4 h-4 text-slate-400 shrink-0 ltr:mr-2 rtl:ml-2" />
+
+              <div className="h-[48px] flex items-center bg-white border-2 border-[#ebcad9] rounded-xl px-3 transition-all hover:border-[#dca5bd] focus-within:border-[#b20163]">
+                <MapPin className="w-4 h-4 text-[#8f7d84] shrink-0 mr-2" />
+
                 <select
                   value={toCity}
                   onChange={(e) => setToCity(e.target.value)}
-                  className="w-full bg-transparent text-xs sm:text-sm font-bold text-slate-800 focus:outline-none cursor-pointer"
+                  className="w-full bg-transparent text-sm font-medium text-[#81737a] focus:outline-none cursor-pointer appearance-none"
                 >
                   {cities.map((c) => (
                     <option key={c} value={c}>
@@ -190,36 +287,60 @@ export function HeroSearch({ locale, onSearch }: HeroSearchProps) {
                     </option>
                   ))}
                 </select>
+
+                <svg
+                  className="w-3.5 h-3.5 text-[#8f7d84] pointer-events-none"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
               </div>
             </div>
 
-            {/* Travel Date */}
-            <div className="lg:col-span-2">
-              <label className="block text-[10px] font-bold text-slate-500 mb-1 uppercase tracking-wider">
+            {/* DATE */}
+            <div>
+              <label
+                className="block text-xs font-bold text-[#7d174f] mb-1.5 uppercase"
+                style={{
+                  fontFamily: "'Barlow Semi Condensed', sans-serif",
+                }}
+              >
                 {t.search.date}
               </label>
-              <div className="relative flex items-center bg-slate-50 border border-slate-200 rounded-xl px-3 py-2.5 hover:border-slate-300 focus-within:border-[#b20163] transition-colors">
-                <Calendar className="w-4 h-4 text-slate-400 shrink-0 ltr:mr-2 rtl:ml-2" />
+
+              <div className="h-[48px] flex items-center bg-white border-2 border-[#ebcad9] rounded-xl px-3 transition-all hover:border-[#dca5bd] focus-within:border-[#b20163]">
+                <Calendar className="w-4 h-4 text-[#8f7d84] shrink-0 mr-2" />
+
                 <input
                   type="date"
                   value={date}
                   onChange={(e) => setDate(e.target.value)}
-                  className="w-full bg-transparent text-xs sm:text-sm font-bold text-slate-800 focus:outline-none cursor-pointer"
+                  className="w-full bg-transparent text-sm font-medium text-[#81737a] focus:outline-none cursor-pointer"
                 />
               </div>
             </div>
 
-            {/* Passengers */}
-            <div className="lg:col-span-1">
-              <label className="block text-[10px] font-bold text-slate-500 mb-1 uppercase tracking-wider">
+            {/* PASSENGERS */}
+            <div>
+              <label
+                className="block text-xs font-bold text-[#7d174f] mb-1.5 uppercase"
+                style={{
+                  fontFamily: "'Barlow Semi Condensed', sans-serif",
+                }}
+              >
                 {t.search.passengers}
               </label>
-              <div className="relative flex items-center bg-slate-50 border border-slate-200 rounded-xl px-2.5 py-2.5 hover:border-slate-300 focus-within:border-[#b20163] transition-colors">
-                <Users className="w-4 h-4 text-slate-400 shrink-0 ltr:mr-1 rtl:ml-1" />
+
+              <div className="h-[48px] flex items-center bg-white border-2 border-[#ebcad9] rounded-xl px-3 transition-all hover:border-[#dca5bd] focus-within:border-[#b20163]">
+                <Users className="w-4 h-4 text-[#8f7d84] shrink-0 mr-2" />
+
                 <select
                   value={passengers}
                   onChange={(e) => setPassengers(Number(e.target.value))}
-                  className="w-full bg-transparent text-xs sm:text-sm font-bold text-slate-800 focus:outline-none cursor-pointer"
+                  className="w-full bg-transparent text-sm font-medium text-[#81737a] focus:outline-none cursor-pointer appearance-none"
                 >
                   {[1, 2, 3, 4, 5, 6].map((num) => (
                     <option key={num} value={num}>
@@ -227,20 +348,51 @@ export function HeroSearch({ locale, onSearch }: HeroSearchProps) {
                     </option>
                   ))}
                 </select>
+
+                <svg
+                  className="w-3.5 h-3.5 text-[#8f7d84] pointer-events-none"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
               </div>
             </div>
 
-            {/* Gold Search Button matching Frame 3681 */}
-            <div className="lg:col-span-2 pt-2 sm:pt-4 lg:pt-5">
+            {/* SEARCH BUTTON */}
+            <div>
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-[#ffe26d] via-[#fdeab2] to-[#d9b747] hover:brightness-105 text-slate-900 font-extrabold px-5 py-3 rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer group"
+                className="
+            w-full
+            h-[48px]
+            bg-gradient-to-r
+            from-[#ffe26d]
+            via-[#ffdf63]
+            to-[#d9b747]
+            hover:brightness-105
+            text-[#17171d]
+            font-extrabold
+            text-sm sm:text-base
+            rounded-xl
+            shadow-md
+            transition-all
+            flex
+            items-center
+            justify-center
+            gap-2
+            cursor-pointer
+          "
+                style={{
+                  fontFamily: "'Barlow Semi Condensed', sans-serif",
+                }}
               >
-                <span className="text-xs sm:text-sm uppercase tracking-wide">
-                  {t.search.btnSearch}
-                </span>
-                <span className="w-5 h-5 rounded-full bg-slate-900 text-white flex items-center justify-center group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5 transition-transform">
-                  <ArrowRight className="w-3 h-3 rtl:rotate-180" />
+                <span>{t.search.btnSearch}</span>
+
+                <span className="w-6 h-6 rounded-full  flex items-center justify-center">
+                  <ArrowRight className="w-4.5 h-4.5 txt-[#17171d]" />
                 </span>
               </button>
             </div>

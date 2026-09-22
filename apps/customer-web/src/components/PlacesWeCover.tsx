@@ -85,7 +85,7 @@ export function PlacesWeCover({ locale, onSelectPlace }: PlacesWeCoverProps) {
   return (
     <section className="py-14 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       {/* Section Header with Ornamental Gold Lines matching Frame 3681 */}
-      <div className="text-center max-w-3xl mx-auto mb-10">
+      {/* <div className="text-center max-w-3xl mx-auto mb-10">
         <div className="flex items-center justify-center gap-3 sm:gap-4 mb-2">
           <div className="h-[2px] w-12 sm:w-20 bg-gradient-to-r from-transparent via-[#d8b93c] to-[#d8b93c] relative flex items-center justify-end">
             <span className="w-1.5 h-1.5 rounded-full bg-[#d8b93c] -mr-0.5" />
@@ -104,8 +104,68 @@ export function PlacesWeCover({ locale, onSelectPlace }: PlacesWeCoverProps) {
         <p className="text-xs sm:text-sm text-slate-500 font-medium max-w-lg mx-auto">
           {t.places.subtitle}
         </p>
-      </div>
+      </div> */}
+      <div className="w-full text-center mx-auto mb-12 sm:mb-14 px-4">
+        {/* Title */}
+        <div className="flex items-center justify-center gap-3 sm:gap-5 lg:gap-7">
 
+          {/* Left Line */}
+          <div className="flex-1 max-w-[280px] flex items-center justify-end">
+            <div className="h-[2px] flex-1 bg-gradient-to-r from-transparent via-[#d8b93c] to-[#d8b93c]" />
+            <span className="w-3.5 h-3.5 rounded-full bg-[#d8b93c] shrink-0" />
+          </div>
+
+          {/* Title */}
+          <h3
+            className="
+        text-[36px]
+        sm:text-[20px]
+        lg:text-[40px]
+        xl:text-[32px]
+        font-black
+        italic
+        uppercase
+        tracking-tight
+        leading-none
+        text-[#b20163]
+            text-transparent
+bg-gradient-to-b
+    from-[#ff1493]
+    via-[#d90075]
+    to-[#990052]
+    bg-clip-text
+      "
+            style={{ fontFamily: "'Barlow Semi Condensed', sans-serif" }}
+          >
+            {t.places.title}
+          </h3>
+
+          {/* Right Line */}
+          <div className="flex-1 max-w-[280px] flex items-center justify-start">
+            <span className="w-3.5 h-3.5 rounded-full bg-[#d8b93c] shrink-0" />
+            <div className="h-[2px] flex-1 bg-gradient-to-l from-transparent via-[#d8b93c] to-[#d8b93c]" />
+          </div>
+        </div>
+
+        {/* Subtitle */}
+        <p
+          className="
+      mt-6
+      sm:mt-7
+      text-base
+      sm:text-[10x]
+      lg:text-[20px]
+      leading-relaxed
+      text-[#51444b]
+      font-medium
+      max-w-[900px]
+      mx-auto
+    "
+          style={{ fontFamily: "'Barlow Semi Condensed', sans-serif" }}
+        >
+          {t.places.subtitle}
+        </p>
+      </div>
       {/* Cards Slider Container with Navigation Buttons */}
       <div className="relative">
         {/* Left Arrow Button */}
@@ -138,9 +198,8 @@ export function PlacesWeCover({ locale, onSelectPlace }: PlacesWeCoverProps) {
                 >
                   {/* Layer 1: Top Floating Gold Badge (Figma Frame 3551 / 1884:206) */}
                   <div
-                    className={`absolute top-4 ${
-                      isAr ? 'left-4' : 'right-4'
-                    } z-20 px-3.5 sm:px-4 py-1.5 rounded-full bg-gradient-to-r from-[#ffe26d] via-[#fdea9d] to-[#d9b747] text-[#550036] font-['Inter',sans-serif] font-bold text-xs sm:text-[13px] shadow-[0_4px_10px_rgba(0,0,0,0.15)]`}
+                    className={`absolute top-4 ${isAr ? 'left-4' : 'right-4'
+                      } z-20 px-3.5 sm:px-4 py-1.5 rounded-full bg-gradient-to-r from-[#ffe26d] via-[#fdea9d] to-[#d9b747] text-[#550036] font-['Inter',sans-serif] font-bold text-xs sm:text-[13px] shadow-[0_4px_10px_rgba(0,0,0,0.15)]`}
                   >
                     {item.price}
                   </div>
@@ -157,11 +216,62 @@ export function PlacesWeCover({ locale, onSelectPlace }: PlacesWeCoverProps) {
                   </div>
 
                   {/* Layer 3: Bottom Magenta City Bar (Figma Container 1875:1813) */}
-                  <div className="bg-[#b20163] py-3 px-4 text-center rounded-b-[28px] flex flex-col items-center justify-center min-h-[72px] z-10 transition-colors group-hover:bg-[#9e0158]">
+                  {/* <div className="bg-[#b20163] py-3 px-4 text-center rounded-b-[28px] flex flex-col items-center justify-center min-h-[72px] z-10 transition-colors group-hover:bg-[#9e0158]">
                     <h3 className="text-white font-['Montserrat',sans-serif] font-bold text-xl sm:text-[22px] leading-tight tracking-wide">
                       {item.city}
                     </h3>
                     <p className="text-white/90 font-['Inter',sans-serif] font-medium text-xs sm:text-[13px] leading-tight mt-0.5">
+                      {item.country}
+                    </p>
+                  </div> */}
+                  <div
+                    className="
+    bg-gradient-to-r
+    from-[#9e005c]
+    via-[#d50072]
+    to-[#f20b82]
+    py-3
+    px-4
+    text-center
+    rounded-b-[28px]
+    flex
+    flex-col
+    items-center
+    justify-center
+    min-h-[72px]
+    z-10
+    transition-all
+    duration-300
+    group-hover:from-[#8f0053]
+    group-hover:via-[#c80069]
+    group-hover:to-[#e9007b]
+  "
+                  >
+                    <h3
+                      className="
+      text-white
+      font-['Montserrat',sans-serif]
+      font-bold
+      text-xl
+      sm:text-[22px]
+      leading-tight
+      tracking-wide
+    "
+                    >
+                      {item.city}
+                    </h3>
+
+                    <p
+                      className="
+      text-white
+      font-['Inter',sans-serif]
+      font-medium
+      text-xs
+      sm:text-[13px]
+      leading-tight
+      mt-0.5
+    "
+                    >
                       {item.country}
                     </p>
                   </div>
@@ -189,11 +299,10 @@ export function PlacesWeCover({ locale, onSelectPlace }: PlacesWeCoverProps) {
             key={dot}
             type="button"
             onClick={() => setActiveSlide(dot)}
-            className={`h-2 rounded-full transition-all cursor-pointer ${
-              activeSlide === dot
-                ? 'w-6 bg-[#b20163]'
-                : 'w-2 bg-slate-200 hover:bg-slate-300'
-            }`}
+            className={`h-2 rounded-full transition-all cursor-pointer ${activeSlide === dot
+              ? 'w-6 bg-[#b20163]'
+              : 'w-2 bg-slate-200 hover:bg-slate-300'
+              }`}
             aria-label={`Go to slide ${dot + 1}`}
           />
         ))}
