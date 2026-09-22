@@ -14,30 +14,32 @@ export function PlacesWeCover({ locale, onSelectPlace }: PlacesWeCoverProps) {
   const t = translations[locale];
   const [activeSlide, setActiveSlide] = useState(0);
 
+  const isAr = locale === 'ar';
+
   const destinations = [
     {
-      city: locale === 'ar' ? 'جدة' : 'Jeddah',
-      country: locale === 'ar' ? 'المملكة العربية السعودية' : 'Saudi Arabia',
-      price: locale === 'ar' ? 'ابتداءً من 45 ﷼' : 'From 45 SAR',
-      image: '/images/card-jeddah.png',
+      city: isAr ? 'جدة' : 'Jeddah',
+      country: isAr ? 'المملكة العربية السعودية' : 'Saudi Arabia',
+      price: isAr ? 'ابتداءً من 45 ﷼' : 'From 45 SAR',
+      image: '/images/pure-photo-jeddah.png',
     },
     {
-      city: locale === 'ar' ? 'المدينة المنورة' : 'Madinah',
-      country: locale === 'ar' ? 'المملكة العربية السعودية' : 'Saudi Arabia',
-      price: locale === 'ar' ? 'ابتداءً من 45 ﷼' : 'From 45 SAR',
-      image: '/images/card-madinah.png',
+      city: isAr ? 'المدينة المنورة' : 'Madinah',
+      country: isAr ? 'المملكة العربية السعودية' : 'Saudi Arabia',
+      price: isAr ? 'ابتداءً من 45 ﷼' : 'From 45 SAR',
+      image: '/images/pure-photo-madinah.png',
     },
     {
-      city: locale === 'ar' ? 'المدينة المنورة' : 'Madinah',
-      country: locale === 'ar' ? 'المملكة العربية السعودية' : 'Saudi Arabia',
-      price: locale === 'ar' ? 'ابتداءً من 45 ﷼' : 'From 45 SAR',
-      image: '/images/card-madinah.png',
+      city: isAr ? 'المدينة المنورة' : 'Madinah',
+      country: isAr ? 'المملكة العربية السعودية' : 'Saudi Arabia',
+      price: isAr ? 'ابتداءً من 45 ﷼' : 'From 45 SAR',
+      image: '/images/pure-photo-riyadh.png',
     },
     {
-      city: locale === 'ar' ? 'عمّان' : 'Amman',
-      country: locale === 'ar' ? 'الأردن' : 'Jordan',
-      price: locale === 'ar' ? 'ابتداءً من 45 ﷼' : 'From 45 SAR',
-      image: '/images/card-amman.png',
+      city: isAr ? 'عمّان' : 'Amman',
+      country: isAr ? 'الأردن' : 'Jordan',
+      price: isAr ? 'ابتداءً من 45 ﷼' : 'From 45 SAR',
+      image: '/images/pure-photo-amman.png',
     },
   ];
 
@@ -85,7 +87,7 @@ export function PlacesWeCover({ locale, onSelectPlace }: PlacesWeCoverProps) {
           <ChevronLeft className="w-5 h-5 rtl:rotate-180" />
         </button>
 
-        {/* 4 Cards Grid from Frame 3681 */}
+        {/* 4 Cards Grid from Frame 3681 (1875:1810) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
           {destinations.map((item, idx) => (
             <div
@@ -93,14 +95,34 @@ export function PlacesWeCover({ locale, onSelectPlace }: PlacesWeCoverProps) {
               onClick={() => onSelectPlace(item.city)}
               className="group relative rounded-[28px] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 cursor-pointer border border-slate-100 bg-white flex flex-col"
             >
-              {/* Destination Image */}
-              <div className="relative h-[340px] sm:h-[380px] w-full overflow-hidden">
+              {/* Layer 1: Top Floating Gold Badge (Figma Frame 3551 / 1884:206) */}
+              <div
+                className={`absolute top-4 ${
+                  locale === 'ar' ? 'left-4' : 'right-4'
+                } z-20 px-3.5 sm:px-4 py-1.5 rounded-full bg-gradient-to-r from-[#ffe26d] via-[#fdea9d] to-[#d9b747] text-[#550036] font-['Inter',sans-serif] font-bold text-xs sm:text-[13px] shadow-md`}
+              >
+                {item.price}
+              </div>
+
+              {/* Layer 2: Raw Destination Image (Figma 1875:1812) */}
+              <div className="relative h-[270px] sm:h-[300px] w-full overflow-hidden bg-slate-100">
                 <Image
                   src={item.image}
                   alt={`${item.city} - ${item.country}`}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-500 select-none"
+                  priority
                 />
+              </div>
+
+              {/* Layer 3: Bottom Magenta City Bar (Figma Container 1875:1813) */}
+              <div className="bg-[#b20163] py-3 px-4 text-center rounded-b-[28px] flex flex-col items-center justify-center min-h-[72px] z-10 transition-colors group-hover:bg-[#9e0158]">
+                <h3 className="text-white font-['Montserrat',sans-serif] font-bold text-xl sm:text-[22px] leading-tight tracking-wide">
+                  {item.city}
+                </h3>
+                <p className="text-white/90 font-['Inter',sans-serif] font-medium text-xs sm:text-[13px] leading-tight mt-0.5">
+                  {item.country}
+                </p>
               </div>
             </div>
           ))}

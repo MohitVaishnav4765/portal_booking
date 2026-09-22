@@ -22,6 +22,16 @@ export default function HomePage() {
   };
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const urlLang = params.get('lang');
+      if (urlLang === 'ar' || urlLang === 'en') {
+        setLocale(urlLang);
+      }
+    }
+  }, []);
+
+  useEffect(() => {
     document.documentElement.lang = locale;
     document.documentElement.dir = locale === 'ar' ? 'rtl' : 'ltr';
   }, [locale]);
