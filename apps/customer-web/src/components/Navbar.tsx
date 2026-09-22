@@ -32,40 +32,43 @@ export function Navbar({ locale, onToggleLocale }: NavbarProps) {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="h-20 flex items-center justify-between">
-          {/* Brand Logo matching Frame 3681 (1574:3062) */}
-          <a href="#" className="flex items-center gap-2 group flex-shrink-0">
-            <div className="relative h-12 w-36 sm:w-44">
-              <Image
-                src="/images/logo.png"
-                alt="Bus Arabia Logo"
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
-          </a>
+          {/* Left Group: Brand Logo + Navigation Links */}
+          <div className="flex items-center gap-7 lg:gap-9">
+            <a href="#" className="flex items-center flex-shrink-0">
+              <div className="relative h-11 w-36 sm:w-42">
+                <Image
+                  src="/images/logo.png"
+                  alt="Bus Arabia Logo"
+                  fill
+                  className="object-contain object-left rtl:object-right"
+                  priority
+                />
+              </div>
+            </a>
 
-          {/* Navigation Links (1574:3063) */}
-          <nav className="hidden lg:flex items-center gap-7 text-xs sm:text-[13px] font-['Montserrat',sans-serif] font-medium text-[#554149]">
-            <a href="#about" className="hover:text-[#b20163] transition-colors">
-              {t.nav.aboutUs}
-            </a>
-            <a
-              href="#operators"
-              className="text-[#b20163] font-semibold border-b-2 border-[#b20163] pb-1"
-            >
-              {t.nav.ourBusOperators}
-            </a>
-            <a href="#faq" className="hover:text-[#b20163] transition-colors">
-              {t.nav.faq}
-            </a>
-            <a href="#contact" className="hover:text-[#b20163] transition-colors">
-              {t.nav.contactUs}
-            </a>
-          </nav>
+            {/* Navigation Links (1574:3063) */}
+            <nav className="hidden lg:flex items-center gap-6 xl:gap-7 text-xs sm:text-[13px] font-['Montserrat',sans-serif] font-medium text-[#554149]">
+              <a href="#about" className="hover:text-[#b20163] transition-colors whitespace-nowrap">
+                {t.nav.aboutUs}
+              </a>
+              <a
+                href="#operators"
+                className="text-[#b20163] font-semibold relative py-1 whitespace-nowrap"
+              >
+                {t.nav.ourBusOperators}
+                <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-[#b20163] rounded-full" />
+              </a>
+              <a href="#faq" className="hover:text-[#b20163] transition-colors whitespace-nowrap">
+                {t.nav.faq}
+              </a>
+              <a href="#contact" className="hover:text-[#b20163] transition-colors whitespace-nowrap">
+                {t.nav.contactUs}
+              </a>
+            </nav>
+          </div>
 
           {/* Right Action Controls matching Frame 3681 (1574:3072) */}
-          <div className="flex items-center gap-2 sm:gap-3.5">
+          <div className="flex items-center gap-2.5 sm:gap-3.5 lg:gap-4 flex-shrink-0">
             {/* Language Selector matching Figma 1574:3073 */}
             <div className="flex items-center gap-1.5 sm:gap-2">
               <span className="text-[11px] font-['Montserrat',sans-serif] font-bold text-[#554149] hidden sm:inline">
