@@ -58,7 +58,7 @@ export function HeroSearch({ locale, onSearch }: HeroSearchProps) {
   return (
     <section className="relative w-full overflow-hidden pb-16">
       {/* Background Graphic Asset (Clean Coach Bus on Highway from Frame 3681) */}
-      <div className="relative w-full h-[540px] sm:h-[620px] lg:h-[700px] overflow-hidden">
+      <div className="relative w-full h-[580px] sm:h-[660px] lg:h-[760px] overflow-hidden">
         <Image
           src={locale === 'ar' ? '/images/hero-bg-ar.png' : '/images/hero-bus-clean.png'}
           alt="Bus Arabia Luxury Bus Fleet"
@@ -71,7 +71,7 @@ export function HeroSearch({ locale, onSearch }: HeroSearchProps) {
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#fcf9f8] via-[#fcf9f8]/60 to-transparent pointer-events-none" />
 
         {/* Live Semantic Typography Overlay from Frame 3681 */}
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-8 sm:pt-14 lg:pt-20">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 lg:pt-32">
           <div className="max-w-xl text-left rtl:text-right">
             {/* Tagline 1 & 2 */}
             <h2
